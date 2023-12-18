@@ -1,0 +1,38 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #484848;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* Add media queries for responsive design */
+/* For screens up to 768px width (mobile devices) */
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+  }
+
+  .filters {
+    display: block;
+  }
+
+  .filters button {
+    width: 100%;
+  }
+
+  .results {
+    display: block;
+  }
+
+  .place {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

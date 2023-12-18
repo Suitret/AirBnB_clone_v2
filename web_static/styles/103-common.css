@@ -1,0 +1,21 @@
+/* Global styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #484848;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* Accessibility enhancements */
+/* Increase font size and improve color contrast */
+body {
+  font-size: 16px;
+  color: #333333;
+  background-color: #f5f5f5;
+}

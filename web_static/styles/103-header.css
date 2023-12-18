@@ -1,0 +1,6 @@
+/* Header styles */
+/* Accessibility enhancements */
+header h1 {
+  font-size: 30px;
+  color: #FF0000; /* Red color for the header title */
+}

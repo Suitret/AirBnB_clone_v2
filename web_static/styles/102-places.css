@@ -1,0 +1,36 @@
+/* Places styles */
+/* Add media queries for responsive design */
+/* For screens up to 768px width (mobile devices) */
+@media (max-width: 768px) {
+  .place {
+    padding: 10px;
+  }
+
+  .price_by_night {
+    margin-top: -30px;
+    margin-right: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .information {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .max_guest,
+  .number_rooms,
+  .number_bathrooms {
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .user {
+    text-align: center;
+  }
+
+  .description {
+    margin-top: 20px;
+  }
+}

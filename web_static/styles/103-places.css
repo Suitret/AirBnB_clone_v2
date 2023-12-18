@@ -1,0 +1,34 @@
+/* Places styles */
+/* Accessibility enhancements */
+.place h2 {
+  font-size: 24px;
+  color: #333333; /* Darker color for place name */
+}
+
+.place .price_by_night {
+  font-size: 30px;
+  color: #FF5A5F; /* Red color for price by night */
+}
+
+/* Improve color contrast for information section */
+.information {
+  border-top: 1px solid #DDDDDD;
+  border-bottom: 1px solid #DDDDDD;
+  background-color: #FAFAFA;
+}
+
+.information .max_guest,
+.information .number_rooms,
+.information .number_bathrooms {
+  color: #333333; /* Darker color for fake text */
+}
+
+/* Improve color contrast for user section */
+.user {
+  color: #333333; /* Darker color for fake text */
+}
+
+/* Improve color contrast for description section */
+.description {
+  color: #333333; /* Darker color for description text */
+}
